@@ -1,0 +1,1 @@
+Hocam Node js ile bir web sitesi olusturdum. bir sinema web sitesidir.

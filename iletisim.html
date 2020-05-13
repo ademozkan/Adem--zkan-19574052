@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+      
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        
+        .header {
+            padding: 80px;
+            text-align: center;
+            background: #1abc9c;
+            color: white;
+        }
+
+            
+            .header h1 {
+                font-size: 40px;
+            }
+
+        
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+            position: sticky;
+            position: -webkit-sticky;
+            top: 0;
+        }
+
+           
+            .navbar a {
+                float: left;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 20px;
+                text-decoration: none;
+            }
+
+
+                
+                .navbar a.right {
+                    float: right;
+                }
+
+                
+                .navbar a:hover {
+                    background-color: #ddd;
+                    color: black;
+                }
+
+               
+                .navbar a.active {
+                    background-color: #666;
+                    color: white;
+                }
+
+        
+        .row {
+            display: -ms-flexbox;
+            /* IE10 */
+            display: flex;
+            -ms-flex-wrap: wrap;
+            /* IE10 */
+            flex-wrap: wrap;
+        }
+
+      
+        .side {
+            -ms-flex: 30%;
+            flex: 30%;
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+
+        
+        .main {
+            -ms-flex: 70%;
+           
+            flex: 70%;
+            background-color: white;
+            padding: 20px;
+        }
+
+    
+        .fakeimg {
+            background-color: #aaa;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #ddd;
+        }
+
+       
+        @media screen and (max-width: 700px) {
+            .row {
+                flex-direction: column;
+            }
+        }
+
+       
+        @media screen and (max-width: 400px) {
+            .navbar a {
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Odev Sitesi</h1>
+        <p>Lutfen bizimle iletisime gecip film randevunuzu aliniz</p>
+    </div>
+
+    <div class="navbar">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="hakkimizde.html">Hakkimizda</a>
+        <a href="iletisim.html">Iletisim</a>
+    </div>
+
+    <div class="row">
+        <div class="main">
+            <h2>Subelerimiz</h2>
+            <p>
+                Bakirkoy Subemiz:555-666-888<br />
+                Mall of Istanbul:666-852-987<br />
+                Bahcelievler : 532-984-658<br />
+                Arnavutkoy:695-652-615<br />
+                Mecidiyekoy: 365-985-952<br />
+                Sivas Merkez:652-95-554<br />
+                Kadikoy:516-526-215<br />
+                Kastamonu Merkez: 656-956-655<br />
+                Eminonu: 559-985-451<br />
+                Ankara Ulus: 565-984-659<br />
+
+
+
+            </p>
+            <h3>Oneri ve sikayetleriniz icin</h3>
+            <p>
+                <a>odevfilm@info.com.tr</a>
+            </p>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <h2>@Her hakký hepimizindir</h2>
+    </div>
+</body>
+
+</html>
